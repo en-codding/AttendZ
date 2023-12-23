@@ -5,16 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary_background_theme"
+<<<<<<< HEAD
     tools:context=".MainActivity">
 
     <!-- Dara's task: Implemented new font and add some new designs-->
+=======
+    tools:context=".ui.activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/themeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_theme_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+>>>>>>> f302ec3 (code)
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="@string/welcome"
         android:fontFamily="@font/font_bold"
+=======
+        android:fontFamily="@font/font_bold"
+        android:text="@string/welcome"
+>>>>>>> f302ec3 (code)
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,6 +58,7 @@
 
     <ImageView
         android:id="@+id/imageView"
+<<<<<<< HEAD
         android:layout_width="128dp"
         android:layout_height="128dp"
         android:layout_marginTop="32dp"
@@ -47,18 +68,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"/>
+=======
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/or"
+        android:fontFamily="@font/font_regular"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+>>>>>>> f302ec3 (code)
 
     <Button
         android:id="@+id/signInButton"
         android:layout_width="320dp"
         android:layout_height="64dp"
         android:background="@drawable/rounded_shape_black"
+<<<<<<< HEAD
         android:drawablePadding="2dip"
+=======
+        android:drawableStart="@drawable/google"
+        android:drawablePadding="2dip"
+        android:fontFamily="@font/font_bold"
+>>>>>>> f302ec3 (code)
         android:gravity="center"
         android:paddingLeft="60dip"
         android:paddingRight="60dip"
         android:singleLine="true"
         android:text="@string/google"
+<<<<<<< HEAD
         android:fontFamily="@font/font_bold"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -74,6 +113,26 @@
         android:layout_height="wrap_content"
         android:text="@string/signinlanguage"
         android:fontFamily="@font/font_bold"
+=======
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <!--
+    <Button
+        android:id="@+id/languageButton"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:background="@color/zxing_transparent"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/signinlanguage"
+        android:textAlignment="center"
+>>>>>>> f302ec3 (code)
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -81,6 +140,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInButton"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.686" />
+=======
+        app:layout_constraintVertical_bias="0.686"
+        android:onClick="onClickChangeLanguage"/>
+     -->
+
+    <ImageView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:srcCompat="@drawable/ic_language_foreground"
+        tools:ignore="MissingConstraints" />
+>>>>>>> f302ec3 (code)
 
 </androidx.constraintlayout.widget.ConstraintLayout>

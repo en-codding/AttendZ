@@ -7,6 +7,7 @@
     android:background="@color/primary_background_theme"
     android:orientation="vertical"
     >
+<<<<<<< HEAD
 
     <!-- Dara's task: Implemented new font and add some new designs-->
 
@@ -23,6 +24,8 @@
 
         <include layout="@layout/fragment_home_placeholder" />
     </com.facebook.shimmer.ShimmerFrameLayout>
+=======
+>>>>>>> f302ec3 (code)
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -46,10 +49,16 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/welcome"
+<<<<<<< HEAD
                     android:fontFamily="@font/font_bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
+=======
+                    android:fontFamily="@font/font_regular"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+>>>>>>> f302ec3 (code)
                     />
                 <TextView
                     android:id="@+id/userName"
@@ -58,10 +67,16 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/user_name"
+<<<<<<< HEAD
                     android:fontFamily="@font/font_bold"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"
+=======
+                    android:fontFamily="@font/font_black"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+>>>>>>> f302ec3 (code)
                     />
             </LinearLayout>
             <de.hdodenhof.circleimageview.CircleImageView
@@ -73,22 +88,44 @@
         </LinearLayout>
 
         <LinearLayout
+<<<<<<< HEAD
             android:layout_margin="20dp"
+=======
+            android:layout_margin="16dp"
+>>>>>>> f302ec3 (code)
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
+<<<<<<< HEAD
             <TextView
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/past_events"
+=======
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_brightness_1_24" />
+
+            <TextView
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_activities"
+>>>>>>> f302ec3 (code)
                 android:fontFamily="@font/font_bold"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
+<<<<<<< HEAD
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -176,6 +213,48 @@
 
         </LinearLayout>
 
+=======
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            >
+
+            <Button
+                android:id="@+id/yourEventButton"
+                android:layout_marginStart="32dp"
+                android:layout_width="164dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_shape_black"
+                android:fontFamily="@font/font_bold"
+                android:text="@string/your_event"
+                android:textColor="@android:color/white"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <Button
+                android:background="@android:color/transparent"
+                android:id="@+id/participatedEventButton"
+                android:layout_marginEnd="32dp"
+                android:layout_width="164dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/font_bold"
+                android:text="@string/joined_event"
+                />
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/lytFragmentHome"/>
+
+>>>>>>> f302ec3 (code)
     </LinearLayout>
 
 </RelativeLayout>

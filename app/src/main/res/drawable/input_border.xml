@@ -5,5 +5,9 @@
         android:width="1dp"
         android:color="@color/black" >
     </stroke>
+<<<<<<< HEAD
     <corners  android:radius="28dp"/>
+=======
+    <corners  android:radius="25dp"/>
+>>>>>>> f302ec3 (code)
 </shape>

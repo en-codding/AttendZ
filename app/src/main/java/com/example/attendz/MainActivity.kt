@@ -2,6 +2,7 @@ package com.example.attendz
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+<<<<<<< HEAD
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -65,5 +66,15 @@ class MainActivity : AppCompatActivity() {
     private fun showFragment(fragment: Fragment) {
         fragmentManager = supportFragmentManager
         fragmentManager.beginTransaction().replace(R.id.lytFragment, fragment).commit()
+=======
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_home)
+        if (supportActionBar != null) {
+            supportActionBar!!.hide()
+        }
+>>>>>>> f302ec3 (code)
     }
 }

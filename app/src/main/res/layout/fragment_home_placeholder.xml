@@ -5,9 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
     android:background="#4B808080">
 
     <!-- Dara's task: Implemented new font and add some new designs-->
+=======
+    android:background="#FDF9F9">
+
+>>>>>>> f302ec3 (code)
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,7 +69,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/past_events"
+<<<<<<< HEAD
             android:fontFamily="@font/font_bold"
+=======
+>>>>>>> f302ec3 (code)
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -74,7 +82,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="@string/view_full_history"
+<<<<<<< HEAD
             android:fontFamily="@font/font_bold"
+=======
+>>>>>>> f302ec3 (code)
             android:textColor="@color/black"/>
     </LinearLayout>
 
